@@ -1,6 +1,6 @@
 <!-- Navbar -->
 <div class="container">
-    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <a href="{{ route('home') }}" class="navbar-brand">
         <img src="{{ url('frontend/images/logo-dashboard.png') }}" alt="Logo MCloud" />
       </a>
@@ -19,19 +19,22 @@
             <a href="#" class="nav-link active">Home</a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="#" class="nav-link">About</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#portofolio" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="#" class="nav-link">Article</a>
+            <a href="#article" class="nav-link">Article</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="#testimonialHeading" class="nav-link">Testimonial</a>
           </li>
           <li class="nav-item mx-md-2">
             <a href="#" class="nav-link">Services</a>
           </li>
           <li class="nav-item mx-md-2">
-            <a href="#" class="nav-link">Our Team</a>
+            <a href="#teamHeading" class="nav-link">Our Team</a>
           </li>
         </ul>
   

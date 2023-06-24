@@ -6,9 +6,9 @@
 
       <!-- Page Heading -->
       <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Gallery</h1>
-          <a href="{{ route('gallery.create') }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-              <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Gallery
+        <h1 class="h3 mb-0 text-gray-800">Service</h1>
+          <a href="{{ route('service.create') }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+              <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Service
           </a>
       </div>
 
@@ -35,10 +35,10 @@
                               </td>
                               <td>{{ $item->desk }}</td>
                               <td>
-                                  <a href="{{ route('gallery.edit', $item->id) }}" class="btn btn-info">
+                                  <a href="{{ route('service.edit', $item->id) }}" class="btn btn-info">
                                       <i class="fa fa-pencil-alt"></i>
                                   </a>
-                                  <form action="{{ route('gallery.destroy', $item->id) }}" method="post" class="d-inline">
+                                  <form action="{{ route('service.destroy', $item->id) }}" method="post" class="d-inline">
                                       @csrf
                                       @method('delete')
                                       <button class="btn btn-danger">

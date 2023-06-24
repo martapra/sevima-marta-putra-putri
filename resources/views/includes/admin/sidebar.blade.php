@@ -34,6 +34,12 @@
             <span>Galery</span></a>
     </li>
 
+    <li class="nav-item">
+        <a class="nav-link" href="{{ route('service.index') }}">
+            <i class="fas fa-fw fa-images"></i>
+            <span>Service</span></a>
+    </li>
+
 
     <hr class="sidebar-divider">
 

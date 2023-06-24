@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\ArticlePackage;
 use App\Models\Gallery;
 use App\Models\Portfolio;
+use App\Models\Service;
 
 class DashboardController extends Controller
 {
@@ -16,6 +17,7 @@ class DashboardController extends Controller
             'article_package' => ArticlePackage::count(),
             'gallery' => Gallery::count(),
             'portfolio' => Portfolio::count(),
+            'service' => Service::count(),
         ]);
     }
 }

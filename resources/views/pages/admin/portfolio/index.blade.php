@@ -30,14 +30,8 @@
                           <tr>
                               <td>{{ $item->id }}</td>
                               <td>
-                                @if($item['image']!= '')
-                                    <img class="img-thumbnail" src="{{ asset('storage/'. $item['image']) }}" alt="" width="150px">
-                                @else
-                                    <img class="img-thumbnail" src="{{ asset("backend/img/no-image.jpg") }}" alt="" width="150px">
-                                @endif
-
-
                                 {{-- <img src="{{ Storage::url($item->image) }}" alt="" style="width: 150px" class="img-thumbnail"> --}}
+                                <img src="{{ '../storage/app/public/' . $item->image}}" alt="" style="width: 150px" class="img-thumbnail">
                               </td>
                               <td>{{ $item->desk }}</td>
                               <td>

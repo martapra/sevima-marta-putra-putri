@@ -1,0 +1,12 @@
+[12-Jun-2023 15:44:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function symlink() in /home/lcsg6799/public_html/labs/cms/symlink.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lcsg6799/public_html/labs/cms/symlink.php on line 4
+[12-Jun-2023 15:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function symlink() in /home/lcsg6799/public_html/labs/cms/symlink.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcsg6799/public_html/labs/cms/symlink.php on line 5
+[12-Jun-2023 15:56:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function symlink() in /home/lcsg6799/public_html/labs/cms/symlink.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcsg6799/public_html/labs/cms/symlink.php on line 5

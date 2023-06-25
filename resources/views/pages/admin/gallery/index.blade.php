@@ -6,9 +6,9 @@
 
       <!-- Page Heading -->
       <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Gallery</h1>
+        <h1 class="h3 mb-0 text-gray-800">Murid</h1>
           <a href="{{ route('gallery.create') }}" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-              <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Gallery
+              <i class="fas fa-plus fa-sm text-white-50"></i> Tambah Data Murid
           </a>
       </div>
 
@@ -30,8 +30,8 @@
                           <tr>
                               <td>{{ $item->id }}</td>
                               <td>
-                                {{-- <img src="{{ Storage::url($item->image) }}" alt="" style="width: 150px" class="img-thumbnail"> --}}
-                                <img src="{{ '../storage/app/public/' . $item->image}}" alt="" style="width: 150px" class="img-thumbnail">
+                                <img src="{{ Storage::url($item->image) }}" alt="" style="width: 150px" class="img-thumbnail">
+                                
                               </td>
                               <td>{{ $item->desk }}</td>
                               <td>

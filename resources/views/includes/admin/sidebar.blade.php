@@ -3,7 +3,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('dashboard') }}">
-        <div class="sidebar-brand-text mx-3"><img src="{{ url('backend/img/logo-dashboard.png') }}" width="110%" alt=""></div>
+        <div class="sidebar-brand-text mx-3"></div>
     </a>
 
     <!-- Divider -->
@@ -25,19 +25,13 @@
     <li class="nav-item">
         <a class="nav-link" href="{{ route('portfolio.index') }}">
             <i class="fas fa-fw fa-file"></i>
-            <span>Portfolio</span></a>
+            <span>Data Guru</span></a>
     </li>
     
     <li class="nav-item">
         <a class="nav-link" href="{{ route('gallery.index') }}">
             <i class="fas fa-fw fa-images"></i>
-            <span>Galery</span></a>
-    </li>
-
-    <li class="nav-item">
-        <a class="nav-link" href="{{ route('service.index') }}">
-            <i class="fas fa-fw fa-images"></i>
-            <span>Service</span></a>
+            <span>Data Murid</span></a>
     </li>
 
 
